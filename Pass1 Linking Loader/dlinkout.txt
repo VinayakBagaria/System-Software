@@ -1,0 +1,11 @@
+CSECT	Symname	Address	Length
+------------------------------
+PROGA		1500	70
+	LISTA	1540	0
+	ENDA	1554	0
+PROGB		1546	88
+	LISTB	15a6	0
+	ENDB	15b6	0
+PROGC		159e	57
+	LISTC	15ce	0
+	ENDC	15e0	0

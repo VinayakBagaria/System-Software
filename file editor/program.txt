@@ -1,0 +1,21 @@
+copy start 5000
+first stl retadr
+cloop jsub rdrec
+1lda length
+comp zero
+jeq endfil
+jsub wrrec
+j cloop
+endfil lda eof
+sta buffer
+lda three
+sta length
+jsub wrrec
+ldl retadr
+rsub
+eof byte c'EOF'
+three word 3
+zero word 0
+retadr resw 1
+length resw 1
+buffer resb 4096
