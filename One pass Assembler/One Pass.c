@@ -92,7 +92,6 @@ int main()
 					fscanf(fp4,"%s%s",syc,syv);
 			}
 		}
-		printf("%d\t%s\t%s\t%s\t%s%s\n",b[j].addr,b[j].label,b[j].opcode,b[j].operand,b[j].oc,b[j].symbl);
 		fprintf(fp5,"%d\t%s\t%s\t%s\t%s%s\n",b[j].addr,b[j].label,b[j].opcode,b[j].operand,b[j].oc,b[j].symbl);
 	}
 	getch();
