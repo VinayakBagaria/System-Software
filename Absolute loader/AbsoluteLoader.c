@@ -74,7 +74,6 @@ int main()
 	for(i=atoi(addr);i<start;i++)
 	{
 		fprintf(out,"x ");
-		char section[10];
 		char str[15];
 		sprintf(str, "%d", i);
 		if(str[3]=='3')
