@@ -30,20 +30,15 @@ int main()
 	{
 		char values[2];
 		sprintf(values,"%d",i);
-		if(i==4)
+		if(i==4 || i==8 || i==12)
         	fprintf(out,"\t ");    
-        if(i==8)
-    		fprintf(out,"\t ");
-    	if(i==10)
+        if(i==10)
     		values[0]='A';
     	if(i==11)
     		values[0]='B';   	
 		if(i==12)
-		{
-			fprintf(out,"\t ");
 			values[0]='C';
-		}
-        if(i==13)
+		if(i==13)
     		values[0]='D';
     	if(i==14)
     		values[0]='E';
