@@ -82,7 +82,7 @@ int main()
 		fprintf(out,"x ");
 		
 		sprintf(str, "%d", i);
-		if(str[3]=='3' || str[3]=='7' || str[3]=='B')
+		if(str[3]=='3' || str[3]=='7')
 			fprintf(out,"\t ");
 	}
 	// for the structure which contains each row
