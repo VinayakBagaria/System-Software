@@ -43,9 +43,7 @@ int main()
     	if(i==14)
     		values[0]='E';
         if(i==15)
-        {
             values[0]='F';
-    	}
 		values[1]='\0';
 		fprintf(out,"%s ",values);
 	}
